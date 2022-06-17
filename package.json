@@ -1,0 +1,44 @@
+{
+  "name": "pokedexparcel",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioanhelo/PokedexParcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "bugs": {
+    "url": "https://github.com/marioanhelo/PokedexParcel/issues"
+  },
+  "homepage": "https://github.com/marioanhelo/PokedexParcel#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.0",
+    "process": "^0.11.10"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "ie 8"
+            ]
+          }
+        }
+      ]
+    ]
+  }
+}
